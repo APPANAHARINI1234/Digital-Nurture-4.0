@@ -1,4 +1,4 @@
-package program_1;
+package Module_java/program_1;
 
 public class HelloWorld{
     public static void main(String[]args){

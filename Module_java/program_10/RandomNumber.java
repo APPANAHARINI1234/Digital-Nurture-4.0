@@ -14,5 +14,6 @@ public class RandomNumber {
              }
         }
         System.out.println("win");
+        //if within a range random then (Math.random()*max)+min 
     }
 }
