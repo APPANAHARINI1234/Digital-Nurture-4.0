@@ -9,7 +9,7 @@ public class App {
     public static void main(String[] args) throws Exception {
         String url ="jdbc:mysql://localhost:3306/school";
         String username ="root";
-        String password ="Rama@4616";
+        String password ="";
         String insertQuery = "insert into students values(?,?,?)";
         String updateQuery ="update students set name=? where id = ?";
         try{
