@@ -8,7 +8,7 @@ public class App {
     public static void main(String[] args) throws Exception {
         String url ="jdbc:mysql://localhost:3306/bank";
         String username ="root";
-        String password ="Rama@4616";
+        String password ="";
         double a = 3;
         String debitQuery = "update amounts set amount = amount - ? where id = ?";
         String creditQuery ="update amounts set amount = amount + ? where id = ?";

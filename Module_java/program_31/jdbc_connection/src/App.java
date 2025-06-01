@@ -3,7 +3,7 @@ import java.sql.*;
 public class App {
     public static void main(String[] args) {
         String username = "root";
-        String password = "Rama@4616";
+        String password = "";
         String url = "jdbc:mysql://localhost:3306/school";
         String query = "select * from students";
         try{
