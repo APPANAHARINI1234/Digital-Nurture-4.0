@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Events Admin Table</title>
+  <style>
+    table {
+      width: 80%;
+      margin: 20px auto;
+      border-collapse: collapse; /* ✅ Remove double borders */
+      text-align: center;         /* ✅ Center all cell content */
+      font-family: Arial, sans-serif;
+    }
+
+    th, td {
+      border: 2px solid #333;     /* ✅ Add visible borders */
+      padding: 12px;              /* ✅ Space inside cells */
+      background-color: #f9f9f9;  /* ✅ Light gray background */
+    }
+
+    th {
+      background-color: #4CAF50;  /* ✅ Green heading */
+      color: white;
+    }
+
+    tr:nth-child(even) {
+      background-color: #e0f7fa;  /* ✅ Zebra striping (light blue) */
+    }
+
+    caption {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <caption>Upcoming Events</caption>
+    <thead>
+      <tr>
+        <th>Event Name</th>
+        <th>Date</th>
+        <th>Location</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Science Fair</td>
+        <td>June 10, 2025</td>
+        <td>Auditorium</td>
+      </tr>
+      <tr>
+        <td>Music Fest</td>
+        <td>June 15, 2025</td>
+        <td>Open Grounds</td>
+      </tr>
+      <tr>
+        <td>Hackathon</td>
+        <td>June 20, 2025</td>
+        <td>Lab 5</td>
+      </tr>
+      <tr>
+        <td>Workshop</td>
+        <td>June 25, 2025</td>
+        <td>Hall A</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>

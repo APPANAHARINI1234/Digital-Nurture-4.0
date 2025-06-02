@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <video src="https://www.w3schools.com/html/mov_bbb.mp4" controls style="display:block;margin:auto" oncanplay="playing()"></video>
+    
+    <div class="schoolform">
+        <h3>RSVP</h3>
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email">
+        </div>
+        <button type="submit" onclick="submit()">Submit</button>
+    </div>
+    <script>
+        let submitted=false;
+        function submit(){
+            submitted=true;
+        }
+       
+            window.onbeforeunload=function(){
+                   if(!submitted){
+                        return "please submit form";
+                   }
+            }
+        
+        function playing(){
+            alert("video is playing");
+        }
+    </script>
+</body>
+</html>

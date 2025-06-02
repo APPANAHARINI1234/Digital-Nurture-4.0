@@ -1,0 +1,16 @@
+header nav ul .navbar{
+    list-style-type:none;
+}
+
+header nav ul{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+header nav ul .navbar a{
+    text-decoration: none;
+}
+
+footer a{
+    text-decoration: none;
+}

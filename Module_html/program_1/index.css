@@ -1,0 +1,21 @@
+*{
+   margin:0px;
+   padding:0px;   
+}
+
+nav ul{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    padding-top:40px;
+    padding-bottom: 30px;
+}
+
+nav ul li{
+    list-style-type:none;
+    
+}
+main section img{
+    display:block;
+    margin:auto;
+}
